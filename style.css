@@ -22,4 +22,24 @@ p{
  {
     front-weight: 400;
  }
+ .flex-content, .flex-table {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    align-content: flex-start;
+ }
+
+ .flex-table {
+    background-color: aqua;
+    clor: white;
+
+ }
+
+ .boxsize {
+    width: 100px;
+    border: 2px solid;
+    text-align: center;
+    padding: 10px;
+ }
  
